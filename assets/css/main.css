@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+div.img{
+  width:70%;
+  height: 80vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+div.img>img{
+  width:70%;
+}
