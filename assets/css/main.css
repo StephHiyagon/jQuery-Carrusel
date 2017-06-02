@@ -35,7 +35,7 @@
   margin:auto;
   height: 10px;
   text-align: center;
-  top:-70px;
+  top:-62px;
 }
 
 #indicator li{
@@ -73,7 +73,7 @@
   #slide ul li .caption{
     position:relative;
     width:100%;
-    top:-85px;
+    top:-70px;
     text-align: center;
     z-index:1;
     color:white;
@@ -89,29 +89,3 @@
     padding-bottom: 10px;
   }
 }
-/*#carrousel{
-  position:relative;
-}
-
-div.img{
-  width:50%;
-  height: 50vh;
-  position:relative;
-  top:20vh;
-  left:calc(50% - 25vw);
-  }
-
-div.img>img{
-  width:50vw;
-  height: 50vh;
-  position:absolute;
-  top:0;
-  left:0;
-}
-
-div.botones{
-  width: 100%;
-  text-align: center;
-  position: relative;
-  top: 22vh;
-}*/
