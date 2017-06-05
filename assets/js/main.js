@@ -63,6 +63,6 @@ $( () => {
       avanzar();
     }
 
-  },3000);
+  },4200);//el metodo hide()y fadeIn() tienen 400ms por defecto...en total demora 5 segundos
 
 });
