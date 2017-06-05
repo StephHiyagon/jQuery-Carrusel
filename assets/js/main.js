@@ -1,4 +1,4 @@
-$( () => {   
+$( () => {
   var numeroSlide=1;
   var formatear=false;
   var cantImg=$("#slide ul li").length;
@@ -14,7 +14,8 @@ $( () => {
     $("#slide ul li").hide();
     $("#slide ul li:nth-child("+ role +")").fadeIn();
     $("#indicator li").css({opacity:".5"});
-    $("#indicator li:nth-child("+ role +")").css({opacity:"1"});
+    // $("#indicator li:nth-child("+ role +")").css({opacity:"1"});
+    $(this).css({opacity:"1"});
     console.log(this);
     formatear=true;
     numeroSlide=role;
@@ -27,7 +28,7 @@ $( () => {
       numeroSlide++;
     }
     // $("#slide ul li").css({display:"none"});
-      $("#slide ul li").hide(1000);
+    $("#slide ul li").hide();
     $("#slide ul li:nth-child("+ numeroSlide +")").fadeIn();
     $("#indicator li").css({opacity:".5"});
     $("#indicator li:nth-child("+ numeroSlide +")").css({opacity:"1"});
@@ -62,6 +63,6 @@ $( () => {
       avanzar();
     }
 
-  },5000);
+  },3000);
 
 });
